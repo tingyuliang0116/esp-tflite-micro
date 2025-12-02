@@ -8,7 +8,7 @@ CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
   to work with policies introduced by <max> or earlier.
 
 
-ESP Insights Project commit: 593ee72-dirty
+ESP Insights Project commit: b8c8f88-dirty
 CMake Deprecation Warning at managed_components/espressif__esp-nn/CMakeLists.txt:1 (cmake_minimum_required):
   Compatibility with CMake < 3.10 will be removed from a future version of
   CMake.
@@ -36,4 +36,4 @@ CMake Deprecation Warning at managed_components/espressif__esp-serial-flasher/CM
   to work with policies introduced by <max> or earlier.
 
 
-ESP RainMaker Project commit: 593ee72-dirty
+ESP RainMaker Project commit: b8c8f88-dirty
