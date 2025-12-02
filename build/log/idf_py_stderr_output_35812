@@ -1,0 +1,20 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/Users/MichelleLiang/required_idf_tools_path/python_env/idf5.5_py3.11_env/bin/python -DESP_PLATFORM=1 -DCCACHE_ENABLE=0 /Users/MichelleLiang/esp/esp-idf-v5.5/micro_speech
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Error at /Users/MichelleLiang/esp/esp-idf-v5.5/tools/cmake/build.cmake:328 (message):
+  Failed to resolve component 'LiquidCrystal_I2C' required by component
+  'main': unknown name.
+Call Stack (most recent call first):
+  /Users/MichelleLiang/esp/esp-idf-v5.5/tools/cmake/build.cmake:377 (__build_resolve_and_add_req)
+  /Users/MichelleLiang/esp/esp-idf-v5.5/tools/cmake/build.cmake:685 (__build_expand_requirements)
+  /Users/MichelleLiang/esp/esp-idf-v5.5/tools/cmake/project.cmake:740 (idf_build_process)
+  CMakeLists.txt:4 (project)
+
+
